@@ -6,16 +6,16 @@ using std::cout;
 using std::cin;
 using std::string;
 
-extern double hp = 60.0, damage = 15.0, shield = 100.0;
-extern double en_hp = 50.0, en_damage = 10.0, en_shield = 100.0;
-extern double boss_hp = 1000.0, boss_damage = 250.0, boss_shield = 150;
-extern int boss_lvl = 1;
-extern int en_level = 1, hero_level = 1, energy = 6, gold = 0, skills = 0;
-extern int experience = 0, new_lvl_xp = 10;
-extern double en_fight_hp = en_hp;
-extern double hero_fight_hp = hp;
-extern int fight_energy = energy;
-extern double boss_fight_hp = boss_hp;
+double hp = 60.0, damage = 15.0, shield = 100.0;
+double en_hp = 50.0, en_damage = 10.0, en_shield = 100.0;
+double boss_hp = 1000.0, boss_damage = 250.0, boss_shield = 150;
+int boss_lvl = 1;
+int en_level = 1, hero_level = 1, energy = 6, gold = 0, skills = 0;
+int experience = 0, new_lvl_xp = 10;
+double en_fight_hp = en_hp;
+double hero_fight_hp = hp;
+int fight_energy = energy;
+double boss_fight_hp = boss_hp;
 
 
 int startGame();									//Game start functionality
