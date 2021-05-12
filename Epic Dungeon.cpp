@@ -8,7 +8,7 @@ using std::string;
 
 double hp = 60.0, damage = 15.0, shield = 100.0;
 double en_hp = 50.0, en_damage = 10.0, en_shield = 100.0;
-double boss_hp = 1000.0, boss_damage = 250.0, boss_shield = 150;
+double boss_hp = 1000.0, boss_damage = 250.0, boss_shield = 150.0;
 int boss_lvl = 1;
 int en_level = 1, hero_level = 1, energy = 6, gold = 0, skills = 0;
 int experience = 0, new_lvl_xp = 10;
